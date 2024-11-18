@@ -1,0 +1,10 @@
+.complete-message {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}

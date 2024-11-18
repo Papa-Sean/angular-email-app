@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: `
+    <div id="app" class="justify-items-center mt-16">
+      <app-email-form></app-email-form>
+    </div>
+  `,
+  styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  title = 'angular-email-app';
-}
+export class AppComponent {}
